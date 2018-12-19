@@ -17,14 +17,15 @@ public class Ausgabe {
         System.out.println("+++++++++++++++++++++++++");
         System.out.println("# A Useless Calculator! #" );
         System.out.println("+++++++++++++++++++++++++");
+        System.out.println();
     }
     public void augabeZahl(double d){
-        System.out.println("Die summer ergiebt: "+d );
+        System.out.println("Die Summe ergiebt: "+d );
     }
 
     public double abfrageZahl()
     {
-        System.out.println("Geben sie eine zahl ein!");
+        System.out.println("Geben sie eine Zahl ein!");
         return scan.nextDouble();
     }
 }
